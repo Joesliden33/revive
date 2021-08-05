@@ -83,7 +83,7 @@ function Library:Window(Name, Color, SizeY)
     Background.Name = "Background"
     Background.Parent = Frame
     Background.BackgroundColor3 = Color3.new(0.141176, 0.141176, 0.141176)
-    Background.BorderColor3 = Color3.new(121, 3, 255)
+    Background.BorderColor3 = Color3.new(0, 0, 0)
     Background.Position = UDim2.new(0.0155808367, 0, 0.0434783697, 0)
     Background.Size = UDim2.new(0, 483, 0, Frame.Size.Y.Offset - 34)
 
